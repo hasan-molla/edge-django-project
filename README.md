@@ -1,0 +1,1 @@
+# edge-django-project
