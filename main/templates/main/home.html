@@ -1,0 +1,33 @@
+{% extends 'main/base.html' %}
+{% load static %} <!-- Add this line -->
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container">
+    <section id="section1">
+        <div class="left-hero">
+            <h2>Welcome to My Website</h2>
+            <p>I am a Website Developer and SEO expert.I’ve developed many websites. I’ve started my career as a freelancer for several years. Website development is my hobby and passion. Customer satisfaction is my first priority. I’ll deliver the work on time. Long Term Service Provide in Customer and 100% Satisfaction. I’ll be developing a fully responsive website for you according to your requirements. If you have any kind of work-related to my skills, then please contact me. WooCommerce Store Shopify Store Management WordPress, PHP, Laravel Get your 100% Website tasks Thanks, Contact me before any order.</p>
+        </div>
+        <div class="right-hero">
+            <img src="{% static 'images/hasan.jpg' %}" alt="Web Devs" class="responsive-image">
+        </div>
+    </section>
+    <section id="section2">
+        <h2>About Me</h2>
+        <p>Learn more about my background and experience.</p>
+    </section>
+    <section id="section3">
+        <h2>Services</h2>
+        <p>Discover the services I offer to help your business grow.</p>
+    </section>
+    <section id="section4">
+        <h2>Blog</h2>
+        <p>Read my latest articles and insights on web development and SEO.</p>
+    </section>
+    <section id="section5">
+        <h2>Contact</h2>
+        <p>Get in touch with me to discuss your project.</p>
+    </section>
+</div>
+{% endblock %}
